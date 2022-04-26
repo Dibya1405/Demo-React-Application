@@ -1,0 +1,140 @@
+/* Universal Css */
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+/* Css on Header */
+.head {
+  height: 75px;
+  display: flex;
+  background-color: black;
+  color: white;
+  justify-content: space-between;
+}
+
+.logo {
+  padding: 7px 20px;
+}
+
+.logo img {
+  width: 40px;
+  height: 40px;
+}
+
+.h4 {
+  color: white;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  padding-left: 40px;
+}
+
+nav ul li {
+  padding-top: 25px;
+  padding-left: 60px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.right {
+  padding-top: 25px;
+  padding-right: 25px;
+  color: white;
+}
+
+/* section */
+
+/* footer */
+footer {
+  background-color: rgb(192, 146, 77);
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  height: 50px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.center {
+  padding-top: 17px;
+  text-align: center;
+}
+
+/* utility */
+.btn {
+  padding: 10px;
+  border-radius: 15px;
+  outline: none;
+  cursor: pointer;
+  background-color: bisque;
+}
+
+.btn:hover {
+  padding: 10px;
+  border-radius: 15px;
+  outline: none;
+  cursor: pointer;
+  background-color: rgb(255, 193, 123);
+}
+
+.img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+  width: 100vw;
+  background-color: rgb(124, 121, 121);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+
+.imageContainer {
+  padding: 100px 50px;
+}
+
+.imageContainer img {
+  height: 300px;
+  width: 300px;
+  /* margin-top: 20px; */
+}
+
+.noteContainer {
+  padding: 20px 50px;
+}
+
+.noteContainer h1 {
+  /* text-align: center; */
+  font-size: 2rem;
+  margin-bottom: 35px;
+}
+
+.noteContainer p {
+  text-align: justify;
+  font-size: 1.3rem;
+  margin-bottom: 25px;
+}
+
+.noteContainer li {
+  list-style: none;
+  margin-bottom: 40px;
+}
+
+.noteContainer li h2 {
+  margin: 10px 15px;
+}
+
+.noteContainer li p {
+  margin: 15px;
+}
